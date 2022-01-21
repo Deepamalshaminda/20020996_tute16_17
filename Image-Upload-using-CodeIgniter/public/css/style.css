@@ -1,0 +1,54 @@
+h3{
+    color: #111316;
+}
+
+.btn a:link,
+.btn a:visited,
+input[type=submit] {
+    color: #1f2124;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: #101111 solid 1px;
+    background-color: white;
+}
+
+.btn a:hover,
+.btn a:active,
+input[type=submit]:hover {
+    background-color: #060707;
+    color: white;
+}
+
+input[type=text] {
+    color: #0a0b0c;
+    padding: 5px 8px;
+    border: #0d0d0e solid 1px;
+    margin: 10px;
+}
+
+body {
+    margin: 50px;
+}
+
+div.imageDiv {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.imageDiv:hover {
+    border: 1px solid #777;
+}
+
+div.imageDiv img {
+    width: 100%;
+    height: auto;
+}
+
+div.imageTitle {
+    padding: 5px;
+    text-align: center;
+}
