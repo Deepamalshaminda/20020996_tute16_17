@@ -20,8 +20,8 @@
         <li>size: <?= esc($uploaded_flleinfo->getSizeByUnit('kb')) ?> KB</li>
     </ul>
 
-    <p class="btnNavi"><?= anchor('upload', 'Upload Another File!') ?></p>
-    <p class="btnNavi"><?= anchor('viewimages', 'View Uploaded Images') ?></p>
+    <p class="uvbtn"><?= anchor('upload', 'Upload Another File!') ?></p>
+    <p class="uvbtn"><?= anchor('viewimages', 'View Uploaded Images') ?></p>
     </fieldset>
 </form>
 
